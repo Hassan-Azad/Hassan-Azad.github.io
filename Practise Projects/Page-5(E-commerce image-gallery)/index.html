@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to E-Commerce Image Gallery</h1>
+    <h6>Images with different effects</h6>
+    <div class="container-1">
+        <div class="con-2">
+            <img src="../images/ivan-stern.jpg" alt="click-here" onclick="myimagefunction(this)">
+            <img src="../images/blue-3d.jpg" alt="click-here" onclick="myimagefunction(this)">
+            <img src="../images/joel-peel.jpg" alt="click-here" onclick="myimagefunction(this)">
+            <img src="../images/yiqun-tang.jpg" alt="click-here" onclick="myimagefunction(this)">
+        </div>
+        <div class="con-3">
+            <img  id="main-img" src="../images/hayden-mills-unsplash.jpg" alt="">
+        </div>
+    </div>
+    <script>
+        function myimagefunction(a1){
+            var mainImg = document.getElementById("main-img");
+            mainImg.src = a1.src;
+        }
+    </script>
+</body>
+</html>

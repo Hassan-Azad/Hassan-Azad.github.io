@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(100deg, red,green);
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+    border: 2px solid black;
+    border-left: none;
+    background-color: white;
+}
+nav ul li{
+    padding: 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 30px;
+    color: black;
+}
+nav ul li a:hover{
+    background-color: white;
+}
+main{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+main .left-column{
+    margin-left: 11%;
+    font-size: 50px;
+    color: white;
+}
+main .right-column{
+    display: flex;
+    float: right;
+    margin-right: 20%;
+    margin-top: -5%;
+    font-size: 25px;
+}

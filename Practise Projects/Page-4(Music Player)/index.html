@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Artists</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div class="left-column">
+            <p>My <br> Sounds</p>
+        </div>
+        <div class="right-column">
+            <p>Click here to listen <img id="icon" src="./images/play.png" width="25px" height="20px"></p>
+        </div>
+        <audio id="mysound" src="./images/The Moon Drops - Nathan Moore.mp3"></audio>
+    </main>
+    <script>
+        var num = document.getElementById("mysound");
+        var num1 = document.getElementById("icon");
+        num1.onclick=function(){
+            if(num.paused){
+                num.play();
+            num1.src ="https://media.geeksforgeeks.org/wp-content/uploads/20210402235545/Pause.png";
+            }
+            else{
+                num.pause();
+                num1.src ="./images/play.png";
+            }
+        }
+    </script>
+</body>
+</html>

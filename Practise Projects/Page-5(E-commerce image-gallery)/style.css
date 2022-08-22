@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+	color: green;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 22px;
+}
+
+h6 {
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: 20px;
+}
+
+.con-2 img{
+    height: 95px;
+    width: 170px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .5;
+}
+.con-2 img:hover{
+    opacity: 1;
+}
+.con-2{
+    float: left;
+}
+.container-1{
+    position: absolute;
+    /* top: 50%; */
+    /* left: 20%; */
+    transform: translate(10%, 1%);
+}
+.con-3 img{
+    height: 410px;
+    width: 700px;
+    transition: transform 1s;
+}
+.con-3 img:hover{
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+.con-3{
+    float: right;
+    padding: 10px;
+}

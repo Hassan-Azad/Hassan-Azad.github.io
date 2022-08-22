@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1{
+    text-align: center;
+    font-family:monospace;
+    font-size: 50px;
+    color: red;
+}
+header h3{
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: auto;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.navigation img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 5px;
+}
+.navigation a{
+    text-decoration: none;
+    float: left;
+    padding: 15px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 20px;
+}
+.navigation a:hover{
+    color: green;
+    background-color: black;
+}
+.welcome{
+    background: url(./images/janice-lin-yUIN4QWKCTw-unsplash.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.welcome span{
+    font-size: 50px;
+    text-align: center;
+    color: green;
+    font-weight: bolder;
+}
+.in-welcome{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    opacity: 80%;
+}
+.prices{
+    background: url(./images/price.jpg);
+    width: 250px;
+    height: 200px;
+    background-size: 100% 100%;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow: 2px 7px 16px 19px;
+    /* margin: auto; */
+}
+.special{
+    background: url(./images/special);
+    width: 250px;
+    height: 200px;
+    background-size: 100% 100%;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow: 2px 7px 16px 19px;
+    
+    /* margin: auto; */
+}
+.prices button, .special button{
+    padding: 10px;
+    /* osition: relative;
+    top: 200px;p */
+    margin-top: 150px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+.prices button:hover, .special button:hover{
+    background-color: black;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+}
+.products button{
+    /* display: flex; */
+    margin-top: 100% auto;
+    margin-left: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+}
+.products button:hover{
+    background-color: black;
+    color: white;
+}
+.featured{
+    text-align: center;
+    font-size: 40px;
+    color: green;
+    margin-top: 10px;
+}
+.con-1{
+    background: url(./images/janice-lin-yUIN4QWKCTw-unsplash.jpg);
+    background-size: 100% 100%;
+    width: 90%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.con-2{
+    background: url(./images/alex-motoc-H5gNE2RX8Ac-unsplash.jpg);
+    background-size: 100% 100%;
+    width: 90%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.con-3{
+    background: url(./images/logan-weaver-lgnwvr-qgZRZI-pKgM-unsplash.jpg);
+    background-size: 100% 100%;
+    width: 90%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+button{
+    background-color: green;
+    width: 90px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .prices,.special{
+        max-width: 250px;
+        position: fixed;
+    }
+    
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+.parallax-1{
+    background-image: url(../images/ivan-stern.jpg);
+    height: 100%;
+    width: 100%;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-1 h1{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    /* left: 410x; */
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+.parallax-2{
+    background: url(../images/joel-peel.jpg);
+    height: 100%;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2 h1{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    /* left: 410px; */
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+.para-1{
+    background-color: black;
+    color: white;
+    /* background-attachment:scroll; */
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.para-2{
+    background-color: black;
+    color: white;
+    /* background-attachment:scroll; */
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

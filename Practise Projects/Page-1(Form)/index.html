@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style-f.css">
+</head>
+<body>
+    <div class="main">
+        <div id="heading"><h1>Survey Foam</h1></div>
+        <div class="form">
+            <form action autocomplete="on">
+                <div class="form-control"><label for="name"> Name : </label>
+                    <input type="text" value="" name="name" id="name" required placeholder="Enter your name">
+                </div>
+
+                <div class="form-control"><label for="age">Age  : </label> 
+                    <input type="number" name="age" id="age" placeholder="Enter your age">
+                </div>
+
+                <div class="form-control"><label for="email"> Email : </label>
+                    <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+                </div>
+
+                <div class="form-control"> <label for="option"> Which option best describes you?</label>
+                      <select name="option" id="option">
+                        <option value="">--select--</option>
+                        <option value="student">student</option>
+                        <option value="employee">employee</option>
+                        <option value="graduate">graduate</option>
+                        <option value="inter-penour">inter-penour</option>
+                        <option value="none of these">none of these</option>
+                      </select>
+                </div>
+                <div class="form-control"><label>Would you recommend this website to others?</label> 
+                      <label> <input type="radio" name="radio" id="yes">Yes</label>
+                      <label><input type="radio" name="radio" id="no">NO</label>
+                      <label><input type="radio" name="radio" id="may-be">May be</label>
+                </div>
+                <div class="form-control"> <label>Languages and Frame-works Known <small>(selct all if known)</small> </label> 
+                    <label><input type="checkbox" name="checkbox" id="C++">C++</label>
+                    <label><input type="checkbox" name="checkbox" id="Java">Java</label>
+                    <label><input type="checkbox" name="checkbox" id="Paython">Paython</label>
+                    <label><input type="checkbox" name="checkbox" id="React">React</label>
+                    <label><input type="checkbox" name="checkbox" id="Bootstrap">Bootstrap</label>
+                    <label><input type="checkbox" name="checkbox" id="Javascript">Javascript</label>
+                </div>
+                <div class="form-control"><label for="comments">Any comments and suggestins.</label>
+                      <textarea name="comments" id="comments" cols="30" rows="3" placeholder="write here..."></textarea>
+                </div>
+                <input class="button" type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
