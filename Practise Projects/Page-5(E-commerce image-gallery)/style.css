@@ -6,7 +6,7 @@
 }
 h1 {
 	color: green;
-	font-size: 3.5rem;
+	font-size: 80px;
 	font-weight: bold;
 	text-align: center;
 	padding-top: 22px;
@@ -14,7 +14,7 @@ h1 {
 
 h6 {
 	color: green;
-	font-size: 1.5rem;
+	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
 	padding-top: 60px;
@@ -53,60 +53,4 @@ h6 {
 .con-3{
     float: right;
     padding: 10px;
-}
-
-@media screen and (max-width:805px) {
-    .con-3 img{
-        width: 500px;
-    }
-    .con-2 img{
-        width: 160px;
-    }
-}
-@media screen and (max-width:685px) {
-    .con-3 img{
-        width: 400px;
-    }
-    .con-2 img{
-        width: 150px;
-    }
-}
-@media screen and (max-width:575px) {
-    .con-3 img{
-        width: 300px;
-    }
-    .con-2 img{
-        width: 130px;
-    }
-    h1{
-        font-size: 2.5rem;
-    }
-}
-@media screen and (max-width:505px) {
-    .con-3 img{
-        width: 250px;
-    }
-    .con-2 img{
-        width: 100px;
-    }
-    h1{
-        font-size: 2rem;
-    }
-    h6{
-        font-size: 1rem;
-    }
-}
-@media screen and (max-width:415px) {
-    .con-3 img{
-        width: 200px;
-    }
-    .con-2 img{
-        width: 80px;
-    }
-    h1{
-        font-size: 1.5rem;
-    }
-    h6{
-        font-size: 0.7rem;
-    }
 }
