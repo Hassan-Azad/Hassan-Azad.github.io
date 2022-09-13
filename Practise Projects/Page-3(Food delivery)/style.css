@@ -169,8 +169,15 @@ button:hover{
 
 @media screen and (max-width: 600px) {
     .prices,.special{
-        max-width: 250px;
-        position: fixed;
+        width: 150px;
+        height: 100px;
     }
-    
+    .prices button, .special button{
+        padding: 3px;
+        margin-top: 70px;
+        border-radius: 10px;
+    }
+    .welcome span{
+        font-size: 40px;
+    }
 }
