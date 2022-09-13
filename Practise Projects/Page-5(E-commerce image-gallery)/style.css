@@ -6,7 +6,8 @@
 }
 h1 {
 	color: green;
-	font-size: 80px;
+	font-size: 55px;
+    font-size: clamp(1.5rem, calc(5vw + 1rem), 3.5rem);
 	font-weight: bold;
 	text-align: center;
 	padding-top: 22px;
@@ -14,10 +15,11 @@ h1 {
 
 h6 {
 	color: green;
-	font-size: 20px;
+	font-size: 30px;
+    font-size: clamp(0.5rem, calc(5vw + 1rem), 1.5rem);
 	font-weight: bold;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 40px;
 	margin-bottom: 20px;
 }
 
@@ -53,4 +55,52 @@ h6 {
 .con-3{
     float: right;
     padding: 10px;
+}
+@media (max-width: 890px) {
+    .con-3 img{
+        width: 600px;
+    }
+}
+@media (max-width: 795px) {
+    .con-3 img{
+        width: 500px;
+    }
+}
+@media (max-width: 695px) {
+    .con-3 img{
+        width: 400px;
+    }
+    .con-2 img{
+        width: 150px;
+    }
+}
+@media (max-width: 575px) {
+    .con-3 img{
+        height: 370px;
+        width: 300px;
+    }
+    .con-2 img{
+        height: 85px;
+        width: 130px;
+    }
+}
+@media (max-width: 455px) {
+    .con-3 img{
+        height: 330px;
+        width: 250px;
+    }
+    .con-2 img{
+        height: 75px;
+        width: 120px;
+    }
+}
+@media (max-width: 390px) {
+    .con-3 img{
+        height: 270px;
+        width: 180px;
+    }
+    .con-2 img{
+        height: 60px;
+        width: 90px;
+    }
 }
