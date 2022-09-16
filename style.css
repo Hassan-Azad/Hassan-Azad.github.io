@@ -83,7 +83,7 @@ nav ul {
   padding: 4em 0;
   font-variant: small-caps;
   font-family: 'Rajdhani', sans-serif;
-  font-size: clamp(0.8rem, calc(2vw + 1rem) , 2rem);
+  font-size: clamp(1.8rem, calc(2vw + 1rem) , 10rem);
 }
 
 /* About Me */
